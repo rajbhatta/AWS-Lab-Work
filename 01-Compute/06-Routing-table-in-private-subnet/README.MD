@@ -1,0 +1,1 @@
+# Configuring routing table in private subnet #

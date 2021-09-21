@@ -1,0 +1,1 @@
+# Setting CICD for EC2 #

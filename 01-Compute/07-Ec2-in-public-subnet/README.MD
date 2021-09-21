@@ -1,0 +1,1 @@
+# Launching EC2 in public subnet #

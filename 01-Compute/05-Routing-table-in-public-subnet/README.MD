@@ -1,0 +1,1 @@
+# Configuring routing table in public subnet #

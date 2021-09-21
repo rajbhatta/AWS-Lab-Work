@@ -1,0 +1,1 @@
+# Creating public subnet in AWS #
