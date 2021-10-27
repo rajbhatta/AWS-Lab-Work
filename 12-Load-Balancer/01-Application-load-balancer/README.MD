@@ -1,6 +1,8 @@
 # 1. Why should we need to use application load balancer ? #
 <img src="imgs/1.png"/>
-- Application load balancer are basically designed for managing load across ec2.
+
+- Application load balancer are basically designed for managing load across ec2
+
 - In the above picture we can see that load are balanced using the URL and target groups
 
 # 2. EC2 instances created for load balancers #
