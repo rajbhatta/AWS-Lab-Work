@@ -3,7 +3,7 @@
 
 - Application load balancer are basically designed for managing load across ec2
 
-- In the above picture we can see that load are balanced using the URL and target groups
+- In the above picture we can see that loads are balanced using the URL and target groups
 
 # 2. EC2 instances created for load balancers #
 <img src="imgs/2.png"/>
