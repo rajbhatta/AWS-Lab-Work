@@ -38,31 +38,31 @@
 # 3. What is ALIAS in record tpye #
 1. Amazon Route 53 alias records provide a Route 53–specific extension to DNS functionality. Alias records let you route traffic to selected AWS resources, such as CloudFront distributions and Amazon S3 buckets. They also let you route traffic from one record in a hosted zone to another record.
 
-2 When Route 53 receives a DNS query for an alias record, Route 53 responds with the applicable value for that resource:
+2. When Route 53 receives a DNS query for an alias record, Route 53 responds with the applicable value for that resource:
 
-2.1. An Amazon API Gateway custom regional API or edge-optimized API – Route 53 responds with one or more IP addresses for your API.
+- <b>2.1. An Amazon API Gateway custom regional API or edge-optimized API</b> – Route 53 responds with one or more IP addresses for your API.
 
-2.2. An Amazon VPC interface endpoint – Route 53 responds with one or more IP addresses for your interface endpoint.
+- <b>2.2. An Amazon VPC interface endpoint </b> – Route 53 responds with one or more IP addresses for your interface endpoint.
 
-2.3 A CloudFront distribution – Route 53 responds with one or more IP addresses for CloudFront edge servers that can serve your content.
+- <b>2.3 A CloudFront distribution </b> – Route 53 responds with one or more IP addresses for CloudFront edge servers that can serve your content.
 
-2.4 An Elastic Beanstalk environment – Route 53 responds with one or more IP addresses for the environment.
+- <b>2.4 An Elastic Beanstalk environment </b> – Route 53 responds with one or more IP addresses for the environment.
 
-2.5 An ELB load balancer – Route 53 responds with one or more IP addresses for the load balancer.
+- <b>2.5 An ELB load balancer </b> – Route 53 responds with one or more IP addresses for the load balancer.
 
-2.6 An AWS Global Accelerator accelerator – Route 53 responds with one of the two IP addresses for the accelerator.
+- <b>2.6 An AWS Global Accelerator accelerator  </b>– Route 53 responds with one of the two IP addresses for the accelerator.
 
-2.7 An Amazon S3 bucket that is configured as a static website – Route 53 responds with one IP address for the Amazon S3 bucket.
+- <b> 2.7 An Amazon S3 bucket that is configured as a static website </b> – Route 53 responds with one IP address for the Amazon S3 bucket.
 
-2.8 Another Route 53 record in the same hosted zone – Route 53 responds as if the query is for the record that is referenced by the alias record.
+- <b>2.8 Another Route 53 record in the same hosted zone </b> – Route 53 responds as if the query is for the record that is referenced by the alias record.
 
 3. An alias record can only redirect queries to selected AWS resources, such as the following:
 
-- Amazon S3 buckets
+- <b>Amazon S3 buckets</b>
 
-- CloudFront distributions
+- <b>CloudFront distributions</b>
 
-- Another record in the same Route 53 hosted zone
+- <b>Another record in the same Route 53 hosted zone </b>
 
 - For example, you can create an alias record named acme.example.com that redirects queries to an Amazon S3 bucket that is also named acme.example.com. You can also create an acme.example.com alias record that redirects queries to a record named zenith.example.com in the example.com hosted zone.
 
