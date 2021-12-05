@@ -6,6 +6,7 @@
 - We use an A record to route traffic to a resource, such as a web server, using an IPv4 address in dotted decimal notation
 
 ## 2.2 AAAA record type ##
+- AAAA record to route traffic to a resource, such as a web server, using an IPv6 address in colon-separated hexadecimal format.
 
 ## 2.3 CNAME record type ##
 - CNAME record, you can create an alias record at the top node of a DNS namespace, also known as the zone apex. For example, if you register the DNS name example.com, the zone apex is example.com. You can't create a CNAME record for example.com, but you can create an alias record for example.com that routes traffic to www.example.com (as long as www.example.com doesn't already have a CNAME record).
@@ -15,15 +16,27 @@
 - A CNAME record can redirect DNS queries to any DNS record. For example, you can create a CNAME record that redirects queries from acme.example.com to zenith.example.com or to acme.example.org. You don't need to use Route 53 as the DNS service for the domain that you're redirecting queries to.
 
 ## 2.4 MX record type ##
+- MX is a mail exchance record type that is related to DNS.
 
 ## 2.5 NS record type ##
+- NS record identifies the name servers for the hosted zone. The name servers are provided with each domain by domain provider.
 
 ## 2.6 SOA record tpe ##
+- It indentifies the base DNS information about the domain, for example: ns-2048.awsdns-64.net. hostmaster.example.com.
 
 ## 2.7 TXT record type ##
+- A TXT record (short for text record) is a type of resource record in the Domain name system (DNS) used to provide the ability to associate arbitrary text with a host or other name, such as human readable information about a server, network, data center, or other accounting information.
 
+```js
+host.widgets.com.   IN   TXT   "printer=lpr5"
+```
 
 ## 2.8 PTR record type ##
+While DNS A records are stored under the given domain name, DNS PTR records are stored under the IP address — reversed, and with ".in-addr.arpa" added. 
+
+```js
+For example, the PTR record for the IP address 192.0.2.255 would be stored under "255.2.0.192.in-addr.arpa".
+```
 
 ## 2.9 SRC record type ##
 
