@@ -12,6 +12,8 @@
 
 - Points to different URL which in turn can be resolved further by DNS.
 
+- A CNAME record can redirect DNS queries to any DNS record. For example, you can create a CNAME record that redirects queries from acme.example.com to zenith.example.com or to acme.example.org. You don't need to use Route 53 as the DNS service for the domain that you're redirecting queries to.
+
 ## 2.4 MX record type ##
 
 ## 2.5 NS record type ##
@@ -54,8 +56,19 @@
 
 2.8 Another Route 53 record in the same hosted zone – Route 53 responds as if the query is for the record that is referenced by the alias record.
 
+3. An alias record can only redirect queries to selected AWS resources, such as the following:
+
+- Amazon S3 buckets
+
+- CloudFront distributions
+
+- Another record in the same Route 53 hosted zone
+
+- For example, you can create an alias record named acme.example.com that redirects queries to an Amazon S3 bucket that is also named acme.example.com. You can also create an acme.example.com alias record that redirects queries to a record named zenith.example.com in the example.com hosted zone.
+
 ## 3.1 Reference ##
 - https://docs.aws.amazon.com/Route53/latest/DeveloperGuide/resource-record-sets-choosing-alias-non-alias.html
+
 
 
 
