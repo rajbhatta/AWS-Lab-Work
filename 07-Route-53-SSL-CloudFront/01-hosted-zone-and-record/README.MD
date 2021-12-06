@@ -83,8 +83,10 @@ For example, the PTR record for the IP address 192.0.2.255 would be stored under
 - https://docs.aws.amazon.com/Route53/latest/DeveloperGuide/resource-record-sets-choosing-alias-non-alias.html
 
 
+# 4. What is zone apex record? #
+- A domain apex is the "root" level of your domain. For example, let's say you just purchased <b>mygreatbrand.com</b> We'd call that the "domain apex", meaning that <b>mygreatbrand.com</b> is the "root" of the hierarchy of domain names. Any subdomain of that <b>(e.g. www.mygreatbrand.com, mail.mygreatbrand.com, etc.)</b> are not considered domain apexes, but are considered subdomains of <b>mygreatbrand.com.</b>
 
 
-
-
+# 5. What is naked domain ? #
+- An Internet domain name without the "www" or any other subdomains. For example, <b>computerlanguage.com</b> is a naked domain but <b>www.computerlanguage.com</b> is not, because it contains the <b>www</b> subdomain.
 
