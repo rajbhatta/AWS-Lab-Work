@@ -2,7 +2,7 @@
 ## 1.1 How normal communication in AWS seems? #
 <img src="img/img2.png"/>
 
-## 1.2 WHat is happening behing the scene ##
+## 1.2 What is happening behind the scene ##
 <img src="img/img3.png"/>
 
 ## 1.3 This communication can be improved using Global Acceletor ##
