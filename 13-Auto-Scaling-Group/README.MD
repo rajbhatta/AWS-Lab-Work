@@ -21,7 +21,7 @@
 
 # 3. Auto Scaling Group #
 ## 3.1 Launch auto scaling group ##
-### 3.1.1 Auto Scaling Group is Launched in two private subnet within VPC as depicted in top diagram ###
+### 3.1.1 Auto Scaling Group is Launched in two private subnets within VPC as depicted in top diagram ###
 <img src="img/img10.png"/>
 
 ### 3.1.2 Auto Scaling Group starts with 2 but it will scale to 6 on the basis of need ###
