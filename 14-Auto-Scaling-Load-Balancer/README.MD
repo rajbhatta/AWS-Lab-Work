@@ -1,8 +1,8 @@
 # Overview of AWS Auto Scaling Group #
 <img src="img/img1.png"/>
 
-# What is Cross side load balancing #
-
+# What is Crosszone load balancing #
+1. It reduces the need to maintain equivalent numbers of instances in each enabled Availability Zone.
 
 # Launch Configuration # 
 ## 2.1 Introduction ##
@@ -57,24 +57,24 @@
 ### 3.1.11 Confirmation of information for Auto Scaling Group ###
 <img src="img/img20.png"/>
 
-<b><i>We can edit launch configuration but we can delete and copy</i></b>
+<b><i> Note: We can edit launch configuration but we can delete and copy. </i></b>
 
 # 4. Launching Load Balancer #
-### 4.1.1 ###
+### 4.1.1 Launch Loadbalancer ###
 
 <img src="img/img21.png"/>
 
-### 4.1.2 ###
+### 4.1.2 Select public subnet for load balancer ###
 <img src="img/img22.png"/>
 
-### 4.1.3 ###
+### 4.1.3 Assign security group ###
 <img src="img/img23.png"/>
 
-### 4.1.4 ###
+### 4.1.4 Configure health check ###
 <img src="img/img24.png"/>
 
-### 4.1.5 ###
+### 4.1.5 Perform Cross-Zone load Balancing if required ###
 <img src="img/img25.png"/>
 
-### 4.1.6 ###
+### 4.1.6 Configure load balancer from Auto Scaling ###
 <img src="img/img26.png"/>
