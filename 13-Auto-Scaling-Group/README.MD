@@ -1,6 +1,8 @@
 # Overview of AWS Auto Scaling Group #
 <img src="img/img1.png"/>
 
+# What is Cross side load balancing #
+
 # Launch Configuration # 
 ## 2.1 Introduction ##
 1. A launch configuration is an instance configuration template that an Auto Scaling group uses to launch EC2 instances. 
@@ -54,3 +56,4 @@
 ### 3.1.11 Confirmation of information for Auto Scaling Group ###
 <img src="img/img20.png"/>
 
+<b><i>We can edit launch configuration but we can delete and copy</i></b>
