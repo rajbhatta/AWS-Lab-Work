@@ -19,3 +19,17 @@
 
 <b>Note: Launch configuration is similar to launching AWS instance. </b>
 
+# 3. Auto Scaling Group #
+## 3.1 Launch auto scaling group ##
+<img src="img/img10.png"/>
+<img src="img/img11.png"/>
+<img src="img/img12.png"/>
+<img src="img/img13.png"/>
+<img src="img/img14.png"/>
+<img src="img/img15.png"/>
+<img src="img/img16.png"/>
+<img src="img/img17.png"/>
+<img src="img/img18.png"/>
+<img src="img/img19.png"/>
+<img src="img/img20.png"/>
+
